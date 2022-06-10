@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loginPage</title>
+    <style>
+        *{
+font-family: Arial, Helvetica, sans-serif;
+}
+body{
+     background: rgb(96, 117, 225);
+    background: linear-gradient(90deg, rgb(133, 62, 232) 19%,rgb(111, 59, 232) 62%); 
+
+}
+#contain{
+    width: 30%;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    margin: auto;
+    margin-top: 150px;
+
+}
+#log{
+    text-align: center;
+    margin-top: 20px;
+}
+#input{
+    width: 80%;
+
+    margin: auto;
+    margin-top: 5em;
+
+}
+#email{
+    width: 100%;
+    border: 0px;
+
+}
+#email+hr{
+    width: 100%;
+    height: 2px;
+    border: 0px;
+    background-color: gray;
+    margin-bottom: 2em;
+}
+#email:placeholder-shown{
+    font-size: large;
+    color: gray;
+}
+#pass{
+    width: 100%;
+    border: 0px;
+}
+#pass+hr{
+    width: 100%;
+    height: 2px;
+    border: 0px;
+    background-color: gray;
+    margin-bottom: 3em;
+}
+#pass:placeholder-shown{
+    font-size: large;
+    color: rgb(165, 161, 161);
+}
+span{
+    color: rgb(52, 52, 168);
+    font-weight: bold;
+}
+#key{
+    width: 100%;
+    height: 50px;
+    border: 0px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+     background: rgb(219, 149, 225);
+     background: linear-gradient(90deg, rgb(227, 160, 233) 19%, rgba(36,64,200,1) 62%);
+
+}
+
+#last{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+
+}
+</style>
+
+</head>
+
+<body>
+    <div id="contain">
+        <div id="log">
+            <h1>Login</h1>
+        </div>
+        <div id="input">
+            <input type="email" name="" id="email" placeholder="Email">
+        <hr>
+        <input type="password" name="" id="pass" placeholder="Password">
+        <hr>
+        <button id="key">Login</button> 
+        </div>
+       <div id="last">
+            <p>Forgot <span>Password</span>?</p>
+            <p> Don't have an account? <span>Sign up</span></p>
+        </div>
+    </div>
+
+</body>
+
+</html> 
